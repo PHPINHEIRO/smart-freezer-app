@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
+import Myheader from '../components/Header';
 
 export default class SettingsScreen extends Component {
   render() {
     return (
       <View>
-        <Text> Settings </Text>
+        <Myheader navigation={this.props.navigation} title='Configurações'></Myheader>
       </View>
     )
   }

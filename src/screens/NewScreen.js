@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import { Text, StyleSheet, View } from 'react-native'
+import {StyleSheet, View } from 'react-native'
+import Myheader from '../components/Header';
 
 export default class NewScreen extends Component {
   render() {
     return (
       <View>
-        <Text> New </Text>
+        <Myheader navigation={this.props.navigation} title='Novo Produto'></Myheader>
       </View>
     )
   }

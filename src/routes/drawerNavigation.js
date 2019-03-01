@@ -1,5 +1,4 @@
-import React from 'react'
-import { Platform, Dimensions } from 'react-native'
+import { Dimensions } from 'react-native'
 import { createDrawerNavigator, createAppContainer } from 'react-navigation'
 import HomeScreen from '../screens/HomeScreen';
 import NewScreen from '../screens/NewScreen';
@@ -19,7 +18,7 @@ const DrawerNavigator = createDrawerNavigator({
     Novo: {
         screen: NewScreen
     },
-    Config: {
+    Configurações: {
         screen: SettingsScreen
     }
 },drawerConfig)
